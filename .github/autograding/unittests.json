@@ -1,7 +1,37 @@
 [
   {
-    "name": "test",
-    "function": "test",
+    "name": "Bericht unveraendert",
+    "function": "test_bericht_unveraendert",
+    "timeout": 10,
+    "points": 3
+  },
+  {
+    "name": "Stornierte werden ignoriert",
+    "function": "test_stornierte_werden_ignoriert",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Kein Rabatt unter 100",
+    "function": "test_rabatt_erst_ab_100",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Rabatt ab 100 inklusive",
+    "function": "test_rabatt_ab_100_inklusive",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Kundenname normalisiert",
+    "function": "test_kundenname_wird_normalisiert",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Leere Liste",
+    "function": "test_leere_liste",
     "timeout": 10,
     "points": 1
   }
